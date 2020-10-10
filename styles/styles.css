@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#top-bar{
+    position: relative;
+    top: 16px;
+    font-size:13px;
+}
+
+#google-bookmarks{
+    position: absolute;
+    margin: 7px 0 0 7px;
+}
+
+#google-bookmarks a{
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
+#google-bookmarks a:hover, #google-widget-links a:hover{
+    text-decoration: underline #000;
+}
+
+#google-widgets{
+    position:relative;
+    display:flex;
+    align-items: center;
+    float:right;
+    padding: 0 30px;
+}
+
+#google-widget-links a{
+    padding-left:15px;
+    white-space:nowrap;
+    color: #000;
+    opacity: 0.75;
+}
+
+#google-widget-links a:last-child{
+    padding-right: 15px;
+}
+
+.apps-button{
+    background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    display:inline-block;
+    height: 30px;
+    width:30px;
+    vertical-align: middle;
+    opacity: 0.55;
+    cursor: pointer;
+}
+
+.apps-button:hover{
+    opacity:1;
+}
+
+#google-sign-in-button{
+    background:-webkit-linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
+    padding: 0 12px;
+    line-height: 28px;
+    margin-left:15px;
+    border-radius:2px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    cursor: pointer;
+}
+
+#logo-box{
+    padding-top:156px;
+}
+
+#logo{
+    display:block;
+    margin:0 auto;
+}
+
+#search-bar{
+    display:block;
+    width:482px;
+    height: 44px;
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 24px;
+    margin: 32px auto;
+}
